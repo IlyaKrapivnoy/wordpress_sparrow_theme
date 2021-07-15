@@ -25,6 +25,19 @@ function style_theme() {
 function theme_register_nav_menu() {
 	register_nav_menu( 'top', 'Меню в шапке' );
 	register_nav_menu( 'footer', 'Меню в подвале' );
+    // генерирует тайтлы для таба
+    add_theme_support( 'title-tag' );
+    // устанавливает миниатюрную картинку поста
+    add_theme_support( 'post-thumbnails', array( 'post' ) );
+    // добавляем новый размер миниатюры
+    add_image_size( 'post_thumb', 1300, 500, true );
+
+    // добавляет Read more ссылку
+    add_filter( 'excerpt_more', 'new_excerpt_more' );
+    function new_excerpt_more( $more ){
+        global $post;
+        return '<a href="'. get_permalink($post) . '"> Read more</a>';
+    }
 }
 
 // регистрируем сайдбар
