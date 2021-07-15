@@ -2,6 +2,7 @@
 add_action('wp_enqueue_scripts', 'style_theme');
 add_action('wp_footer', 'scripts_theme');
 add_action('after_setup_theme', 'theme_register_nav_menu');
+add_action('widgets_init', 'register_my_widgets');
 
 // подключаем стили
 function style_theme() {
@@ -24,4 +25,26 @@ function style_theme() {
 function theme_register_nav_menu() {
 	register_nav_menu( 'top', 'Меню в шапке' );
 	register_nav_menu( 'footer', 'Меню в подвале' );
+}
+
+// регистрируем сайдбар
+function register_my_widgets(){
+	register_sidebar( array(
+		'name'          => 'Left Sidebar',
+		'id'            => "left_sidebar",
+		'description'   => 'Здесь можно редактировать сайдбар',
+        'before_widget'  => '<div class="widget %2$s">',
+		'after_widget'   => "</div>\n",
+		'before_title'   => '<h5 class="widgettitle">',
+		'after_title'    => "</h5>\n"
+	) );
+	register_sidebar( array(
+		'name'          => 'Top Sidebar',
+		'id'            => "top_sidebar",
+		'description'   => 'Здесь можно редактировать сайдбар 2',
+        'before_widget'  => '<div class="widget %2$s">',
+		'after_widget'   => "</div>\n",
+		'before_title'   => '<h5 class="widgettitle">',
+		'after_title'    => "</h5>\n"
+	) );
 }
