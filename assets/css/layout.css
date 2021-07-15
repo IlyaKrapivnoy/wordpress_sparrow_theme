@@ -27,7 +27,7 @@
 /* ------------------------------------------------------------------ */
 /* a. Common Styles
 /* ------------------------------------------------------------------ */
-html { scroll-behavior: smooth; }
+html { scroll-behavior: smooth; margin-top: 0!important;}
 body { background: #D2D8D8 url(../images/bg.jpg); }
 img { border-radius: 3px; }
 .content-outer { background: #fff }
@@ -190,7 +190,8 @@ img { border-radius: 3px; }
 header {
    height: 96px;
    width: 100%;
-   /* background: #383232; */
+   background: #535050;
+   margin-top: -50px;
 }
 
 /* header logo */
@@ -244,8 +245,8 @@ ul#nav {
 ul#nav li {
 	position: relative;
 	list-style: none;
-   height: 48px;
-   display: inline-block;
+    line-height: 48px;
+    display: inline-block;
 }
 
 /* Links */
