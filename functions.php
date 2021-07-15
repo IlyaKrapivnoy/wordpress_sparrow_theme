@@ -23,4 +23,5 @@ function style_theme() {
 // регистрируем меню
 function theme_register_nav_menu() {
 	register_nav_menu( 'top', 'Меню в шапке' );
+	register_nav_menu( 'footer', 'Меню в подвале' );
 }
