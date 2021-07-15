@@ -5,7 +5,7 @@
 <head>
    <!--- Basic Page Needs
    ================================================== -->
-   <meta charset="utf-8">
+    <meta charset="utf-8">
 	<title>Sparrow - Free Responsive HTML5/CSS3 Template</title>
 	<meta name="description" content="">
 	<meta name="author" content="">
@@ -14,9 +14,6 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
    <!-- Script
    ================================================== -->
-	<script src="js/modernizr.js"></script>
-   <!-- Favicons
-	================================================== -->
 	<link rel="shortcut icon" href="favicon.ico" > 
     <?php wp_head(); ?>
 </head>
@@ -28,8 +25,8 @@
          <div class="twelve columns">
             <div class="logo">
                 <a href="<?php echo home_url(); ?>">
-                    <div><?php bloginfo('name'); ?></div>
-                    <img alt="" src="images/logo.png">
+                    <!-- <div><?php bloginfo('name'); ?></div> -->
+                    <img alt="" src="<?php echo get_template_directory_uri(); ?>/assets/images/logo.png">
                 </a>
             </div>
             <nav id="nav-wrap">

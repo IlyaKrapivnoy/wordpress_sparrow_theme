@@ -22,7 +22,7 @@
                         enim tellus ultrices elit.</p>
 						   </div>
                      <div class="slider-image">
-                        <img src="images/sliders/home-slider-image-01.png" alt="" />
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/sliders/home-slider-image-01.png" alt="" />
                      </div>
 					   </div>
 				   </div>
@@ -39,7 +39,7 @@
                         Aenean condimentum, lacus sit amet luctus.</p>
 						   </div>
                      <div class="slider-image">
-                        <img src="images/sliders/home-slider-image-02.png" alt="" />
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/sliders/home-slider-image-02.png" alt="" />
                      </div>
 					   </div>
 				   </div>
@@ -112,7 +112,7 @@
     		   <div class="columns portfolio-item">
                <div class="item-wrap">
     				   <a href="portfolio.html">
-                     <img alt="" src="images/portfolio/geometrics.jpg">
+                     <img alt="" src="<?php echo get_template_directory_uri(); ?>/assets/images/portfolio/geometrics.jpg">
                      <div class="overlay"></div>
                      <div class="link-icon"><i class="fa fa-link"></i></div>
                   </a>
@@ -126,7 +126,7 @@
             <div class="columns portfolio-item">
                <div class="item-wrap">
     				   <a href="portfolio.html">
-                     <img alt="" src="images/portfolio/console.jpg">
+                     <img alt="" src="<?php echo get_template_directory_uri(); ?>/assets/images/portfolio/console.jpg">
                      <div class="overlay"></div>
                      <div class="link-icon"><i class="fa fa-link"></i></div>
                   </a>
@@ -140,7 +140,7 @@
             <div class="columns portfolio-item s-first">
                <div class="item-wrap">
     				   <a href="portfolio.html">
-                     <img alt="" src="images/portfolio/camera-man.jpg">
+                     <img alt="" src="<?php echo get_template_directory_uri(); ?>/assets/images/portfolio/camera-man.jpg">
                      <div class="overlay"></div>
                      <div class="link-icon"><i class="fa fa-link"></i></div>
                   </a>
@@ -154,7 +154,7 @@
             <div class="columns portfolio-item">
                <div class="item-wrap">
     				   <a href="portfolio.html">
-                     <img alt="" src="images/portfolio/into-the-light.jpg">
+                     <img alt="" src="<?php echo get_template_directory_uri(); ?>/assets/images/portfolio/into-the-light.jpg">
                      <div class="overlay"></div>
                      <div class="link-icon"><i class="fa fa-link"></i></div>
                   </a>
