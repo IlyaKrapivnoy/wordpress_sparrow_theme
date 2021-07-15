@@ -100,10 +100,14 @@ img { border-radius: 3px; }
    color: #313131;
 }
 
+#sidebar li.current-cat a {
+    color: red;
+}
+
 /* tag cloud */
 #sidebar .tagcloud {
    margin: 18px 0 18px -12px;
-   padding: 0;
+   padding-bottom: 90px;
 }
 #sidebar .tagcloud a {
    font: bold 12px/24px notosans-regular , sans-serif !important;
