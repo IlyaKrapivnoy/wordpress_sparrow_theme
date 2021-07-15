@@ -1,16 +1,10 @@
 <?php get_header(); ?>
-
-
-
    <!-- Intro Section
    ================================================== -->
    <section id="intro">
-
       <!-- Flexslider Start-->
 	   <div id="intro-slider" class="flexslider">
-
 		   <ul class="slides">
-
 			   <!-- Slide -->
 			   <li>
 				   <div class="row">
@@ -27,9 +21,8 @@
 					   </div>
 				   </div>
 			   </li>
-
             <!-- Slide -->
-			   <li>
+			    <li>
 				   <div class="row">
 					   <div class="twelve columns">
 						   <div class="slider-text">
@@ -44,59 +37,41 @@
 					   </div>
 				   </div>
 			   </li>
-
 		   </ul>
-
 	   </div> <!-- Flexslider End-->
-
    </section> <!-- Intro Section End-->
-
    <!-- Info Section
    ================================================== -->
    <section id="info">
-
       <div class="row">
-
          <div class="bgrid-quarters s-bgrid-halves">
-
            <div class="columns">
               <h2>Clean & Modern.</h2>
-
               <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.
               Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
               </p>
            </div>
-
            <div class="columns">
               <h2>Responsive.</h2>
-
               <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.
               Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
               </p>
            </div>
-
            <div class="columns s-first">
               <h2>HTML5 + CSS3.</h2>
-
               <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.
               Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
               </p>
            </div>
-
            <div class="columns">
               <h2>Free of Charge.</h2>
-
               <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.
               Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
               </p>
            </div>
-
            </div>
-
       </div>
-
    </section> <!-- Info Section End-->
-
    <!-- Works Section
    ================================================== -->
    <section id="works">

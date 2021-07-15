@@ -20,7 +20,7 @@ function style_theme() {
 //     wp_enqueue_script('core', get_template_directory_uri() .'/assets/js/core.js');
 // }
 
-// регистрируем меню
+// регистрируем верхнее и нижнее меню
 function theme_register_nav_menu() {
 	register_nav_menu( 'top', 'Меню в шапке' );
 	register_nav_menu( 'footer', 'Меню в подвале' );

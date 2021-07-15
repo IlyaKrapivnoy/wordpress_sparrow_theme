@@ -38,9 +38,7 @@
    <script src="<?php echo get_template_directory_uri(); ?>/assets/js/init.js"></script>
    <script src="<?php echo get_template_directory_uri(); ?>/assets/js/modernizr.js"></script>
 
-
    <?php wo_footer(); ?>
-   
-</body>
 
+</body>
 </html>
