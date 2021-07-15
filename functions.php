@@ -38,13 +38,4 @@ function register_my_widgets(){
 		'before_title'   => '<h5 class="widgettitle">',
 		'after_title'    => "</h5>\n"
 	) );
-	register_sidebar( array(
-		'name'          => 'Top Sidebar',
-		'id'            => "top_sidebar",
-		'description'   => 'Здесь можно редактировать сайдбар 2',
-        'before_widget'  => '<div class="widget %2$s">',
-		'after_widget'   => "</div>\n",
-		'before_title'   => '<h5 class="widgettitle">',
-		'after_title'    => "</h5>\n"
-	) );
 }

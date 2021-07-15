@@ -7,10 +7,9 @@
       <div class="row">
 
          <div class="ten columns centered text-center">
-            <h1>Our Blog<span>.</span></h1>
+            <h1>Category<span>.</span></h1>
 
-            <p>Aenean condimentum, lacus sit amet luctus lobortis, dolores et quas molestias excepturi
-            enim tellus ultrices elit, amet consequat enim elit noneas sit amet luctu. </p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse officiis laudantium repellat!</p>
          </div>
 
       </div>
@@ -29,11 +28,11 @@
 
                <div class="entry-header cf">
 
-                  <h1><a href="single.html" title="">The cat turn out a humster.</a></h1>
+                  <h1><a href="single.html" title="">My panda is an actor</a></h1>
 
                   <p class="post-meta">
 
-                     <time class="date" datetime="2014-01-14T11:24">Jan 19, 2021</time>
+                     <time class="date" datetime="2014-01-14T11:24">Jan 14, 2021</time>
                      /
                      <span class="categories">
                      <a href="#">Design</a> /
@@ -46,7 +45,7 @@
                </div>
 
                <div class="post-thumb">
-                  <a href="single.html" title=""><img src="<?php echo get_template_directory_uri(); ?>/assets/images/post-image/post-image-1300x500-01.jpg" alt="post-image" title="post-image"></a>
+                    <a href="single.html" title=""><img src="<?php echo get_template_directory_uri(); ?>/assets/images/post-image/post-image-1300x500-02.jpg" alt="post-image" title="post-image"></a>
                </div>
 
                <div class="post-content">
@@ -64,11 +63,11 @@
 
                <div class="entry-header cf">
 
-                  <h1><a href="single.html" title="">The shadow of Apple</a></h1>
+                  <h1><a href="single.html" title="">Does it good to go there?</a></h1>
 
                   <p class="post-meta">
 
-                     <time class="date" datetime="2014-01-14T11:24">Jan 22, 2021</time>
+                     <time class="date" datetime="2014-01-14T11:24">Jan 14, 2021</time>
                      /
                      <span class="categories">
                      <a href="#">Design</a> /
@@ -81,7 +80,7 @@
                </div>
 
                <div class="post-thumb">
-                  <a href="single.html" title=""><img src="<?php echo get_template_directory_uri(); ?>/assets/images/post-image/post-image-1300x500-02.jpg" alt="post-image" title="post-image"></a>
+                    <a href="single.html" title=""><img src="<?php echo get_template_directory_uri(); ?>/assets/images/post-image/post-image-1300x500-01.jpg" alt="post-image" title="post-image"></a>
                </div>
 
                <div class="post-content">
@@ -99,11 +98,11 @@
 
                <div class="entry-header cf">
 
-                  <h1><a href="single.html" title="">My hand is pink</a></h1>
+                  <h1><a href="single.html" title="">Where have you been?</a></h1>
 
                   <p class="post-meta">
 
-                     <time class="date" datetime="2014-01-14T11:24">Jan 28, 2021</time>
+                     <time class="date" datetime="2014-01-14T11:24">Jan 14, 2021</time>
                      /
                      <span class="categories">
                      <a href="#">Design</a> /
