@@ -4,12 +4,11 @@
       <div class="row">
          <div class="twelve columns">
             <ul class="footer-nav">
-                <li><a href="#">Home.</a></li>
-                <li><a href="#">Blog.</a></li>
-                <li><a href="#">Portfolio.</a></li>
-                <li><a href="#">About.</a></li>
-                <li><a href="#">Contact.</a></li>
-                <li><a href="#">Features.</a></li>
+            <?php wp_nav_menu(array(
+                'container'            => null,
+                'menu_class'           => 'footer-menu',
+                'theme_location'       => 'footer'
+            )); ?>
             </ul>
             <ul class="footer-social">
                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
@@ -27,11 +26,6 @@
          <div id="go-top" style="display: block;"><a title="Back to Top" href="#">Go To Top</a></div>
       </div>
    </footer> <!-- Footer End-->
-   <?php wp_nav_menu(array(
-        'container'            => null,
-        'menu_class'           => 'footer-menu',
-        'theme_location'       => 'footer'
-   )); ?>
 
    <!-- Java Script
    ================================================== -->
