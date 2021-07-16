@@ -149,13 +149,11 @@
    <!-- Journal Section
    ================================================== -->
    <section id="journal">
-
       <div class="row">
          <div class="twelve columns align-center">
             <h1>Our latest posts and rants.</h1>
          </div>
       </div>
-
       <div class="blog-entries">
         <?php 
             $args = array(
@@ -177,7 +175,7 @@
                         </div>
                         <div class="two columns post-meta end">
                             <p>
-                                <time datetime="2014-01-28" class="post-date" pubdate=""><?php the_time('F jS, Y') ?></time>
+                                <time class="post-date" pubdate=""><?php the_time('F jS, Y') ?></time>
                                 <span class="dauthor">By <?php the_author(); ?></span>
                             </p>
                         </div>
@@ -193,7 +191,7 @@
         ?>
       </div> <!-- Entries End -->
    </section> <!-- Journal Section End-->
-   
+
    <!-- Call-To-Action Section
    ================================================== -->
    <section id="call-to-action">
