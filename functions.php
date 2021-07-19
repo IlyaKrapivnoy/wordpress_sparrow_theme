@@ -16,6 +16,12 @@ function test_content($content) {
     return $content;
 }
 
+// добавляем выдуманный action
+add_action('my_action', 'action_function');
+function action_function() {
+    echo "I'm here!";
+}
+
 // подключаем стили
 function style_theme() {
     wp_enqueue_style('style', get_stylesheet_uri());

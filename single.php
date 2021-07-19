@@ -50,6 +50,8 @@
                </div>
 
                 <div class="post-content">
+                    <?php do_action('my_action'); ?>
+
                     <?php the_post(); ?>
                     <?php the_content(); ?>
                 </div>
