@@ -46,10 +46,11 @@
                </div>
 
                <div class="post-thumb">
-                  <a href="single.html" title=""><img src="<?php echo get_template_directory_uri(); ?>/assets/images/post-image/post-image-1300x500-01.jpg" alt="post-image" title="post-image"></a>
+                  <?php the_post_thumbnail(); ?>
                </div>
 
                 <div class="post-content">
+                    <?php the_post(); ?>
                     <?php the_content(); ?>
                 </div>
 

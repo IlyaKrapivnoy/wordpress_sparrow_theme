@@ -10,6 +10,12 @@ function my_sep( $sep ) {
     return $sep;
 }
 
+add_filter('the_content', 'test_content');
+function test_content($content) {
+    $content.= 'Thanks for reading';
+    return $content;
+}
+
 // подключаем стили
 function style_theme() {
     wp_enqueue_style('style', get_stylesheet_uri());
