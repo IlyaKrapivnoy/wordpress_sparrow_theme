@@ -4,6 +4,12 @@ add_action('wp_footer', 'scripts_theme');
 add_action('after_setup_theme', 'theme_register_nav_menu');
 add_action('widgets_init', 'register_my_widgets');
 
+add_filter('document_title_separator', 'my_sep');
+function my_sep( $sep ) {
+    $sep = ' | ';
+    return $sep;
+}
+
 // подключаем стили
 function style_theme() {
     wp_enqueue_style('style', get_stylesheet_uri());
