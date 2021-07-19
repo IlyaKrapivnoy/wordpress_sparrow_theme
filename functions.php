@@ -19,7 +19,13 @@ function test_content($content) {
 // добавляем выдуманный action
 add_action('my_action', 'action_function');
 function action_function() {
-    echo "I'm here!";
+    echo "Sponsored by Bart Simpson";
+}
+
+// добавляю shortcode
+add_shortcode('my_short', 'short_function');
+function short_function() {
+    return "Test shortcode";
 }
 
 // подключаем стили
