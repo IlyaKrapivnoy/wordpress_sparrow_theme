@@ -69,7 +69,7 @@ function theme_register_nav_menu() {
     // устанавливает миниатюрную картинку поста
     add_theme_support( 'post-thumbnails', array( 'post' ) );
 
-    add_theme_support( 'post-formats', array( 'aside', 'gallery' ) );
+    add_theme_support( 'post-formats', array( 'video', 'gallery' ) );
 
     // добавляем новый размер миниатюры
     add_image_size( 'post_thumb', 1300, 500, true );
